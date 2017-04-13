@@ -24,7 +24,7 @@
     <head>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript">
-            jQuery(document).on('click','a#download',function(){
+          /*  jQuery(document).on('click','a#download',function(){
                 jQuery('div#counter').html('Loading...') ;
                 var ajax = jQuery.ajax({
                     method : 'get',
@@ -37,11 +37,11 @@
                 ajax.fail(function(data){
                     alert('ajax fail : url of ajax request is not reachable') ;
                 }) ;
-            }) ;
+            }) ;*/
         </script>
     </head>
 	<body>
     <div id="counter"><?php echo $counter ; ?></div>
-    <a href="" id="download" onclick="window.open(this.href);return false;">Download btn</a>
+    <!--<a href="" id="download" onclick="window.open(this.href);return false;">Download btn</a>!-->
 	</body>
 </html>
