@@ -361,6 +361,38 @@ a {
  padding:20px;
 
 }
+#studentReps{
+	width:100%;
+	background: #0DC6DC;
+	padding:20px;
+	text-align:center;
+	color:white;
+}
+#studentReps h3{
+ color:#EEEEEE;
+ font-weight: 100;
+ font-size: 1.25rem;
+ line-height: 1.5em;
+}
+#organizers{
+	width:100%;
+	background-color:rgb(182, 232, 227);
+	text-align:center;
+	padding:20px;
+}
+.orgDiv{
+width:50%; 
+margin:auto;
+text-align:left;
+}
+.orgDiv img{
+padding-right:20px;
+float:left;
+}
+.orgDiv h3{
+ color:#888888;
+ font-size: 1.25rem;
+}
 .scheduleContainer{
  display: table;
  height:60%;

@@ -27,16 +27,16 @@
     z-index: 3;
 	background-color:#74C7E0">
 	
-	<div id="homeLogo" style="float:left; margin-left:10px; cursor:pointer" onclick="">
+	<div id="homeLogo" style="float:left; margin-left:10px; cursor:pointer"  onclick = "scrl('header');">
 		<img id="logo" src="hsocalogo.png"style="height:75px; width:75px;display:inline;">
-		<div style="float:right;margin-top:15px"><h1 style="display:inline;" onclick = "scrl('header');">HACK SOCAL</h1></div>
+		<div style="float:right;margin-top:15px"><h1 style="display:inline;">HACK SOCAL</h1></div>
 	</div>
 	<div id="items" style="float: right; margin-top:23px; margin-right:10px; font-family: STHeitiTC-Light,'Century Gothic' ;">
 		<h1 class = "grad"onclick = "scrl('about');" >ABOUT</h1>
 		<h1 class = "grad"onclick = "scrl('faq');">FAQ</h1>
 		<h1 class = "grad"onclick = "scrl('schedule');">ITINERARY</h1>
-		<h1 class = "grad"onclick = "scrl('schedule');">STUDENT REPS</h1>
-		<h1 class = "grad"onclick = "scrl('schedule');">ORGANIZERS</h1>
+		<h1 class = "grad"onclick = "scrl('studentReps');">STUDENT REPS</h1>
+		<h1 class = "grad"onclick = "scrl('organizers');">ORGANIZERS</h1>
 		<h1 class = "grad"onclick = "scrl('sponsors');">SPONSORS</h1>
 	</div>
   </div>
@@ -52,33 +52,14 @@
         <h1>November 10-11</h1>
       </div>
 	  <br>
-      <div class="buttons" >
-        <a href="/register" id="register" style = "">
+      <div class="buttons" style = "width:35%;">
+          <h1 id="apply">Applications coming out soon!</h1>
+        <!--<a href="/register" id="register" style = "">
           <h1 id="apply">Apply Now!</h1>
-        </a>
+        </a>-->
       </div>
     </div>
   </div>
-  <!--
-  <div id="nav" class="navbar navbar-expand-lg navbar-light vis">
-    <button type="button" data-toggle="collapse" data-target="#navBarMark" aria-controls="navBarMark" aria-expanded="false" aria-label="Toggle Navigation" class="navbar-toggler">
-      <span class="navbar-toggler-icon">
-      </span>
-    </button>
-    <div id="navBarMark" class="collapse navbar-collapse">
-      <div class="navbar-nav">
-        <a href="#" class="nav-item nav-link active">HOME<span class="sr-only">(current)
-        </span>
-      </a>
-      <a href="#about" class="nav-item nav-link">ABOUT</a>
-      <a href="#faq" class="nav-item nav-link">FAQ</a>
-      <a href="#schedule" class="nav-item nav-link">SCHEDULE</a>
-      <a href="#sponsors" class="nav-item nav-link">SPONSORS</a><a href="https://docs.google.com/presentation/d/1D-NJM4GhLoqqqIcMpKSsdlSuYnRyDURzHAn-XyHRzVQ/edit?usp=sharing" class="nav-item nav-link">
-        INFO</a>
-      </div>
-    </div>
-  </div>
-  -->
   <div id="about" class="visible">
     <div class="container">
       <div class="text-center">
@@ -100,7 +81,8 @@
 	</div>
 	
 	<div id="faq">
-		<h1 class="faqTitle">FAQ</h1><hr class="line light-b">
+		<h1 class="faqTitle">FAQ</h1>
+		<hr class="line light-b">
 		<div id="miz" class="container pad">
 			<h2>What is a Hackathon?</h2>
 			<h3>A hackathon is a 24-hour event where a large number of people meet to engage in collaborative computer programming. They reach out to all college and high school students, especially those looking into becoming a computer science major.</h3>
@@ -167,6 +149,97 @@
             </div>
           </div>
     </div>
+	<div id="studentReps">
+		<h1>Student Representatives</h1>
+		<hr class="line light-b">
+		<h2>Would you like to become a student ambassador?</h2>
+		<br>
+		<h3>Contact us at <a href="mailto:hacksocal@email.com">hacksocal@gmail.com</a> for more info!</h3>
+	</div>
+	<div id="organizers">
+		<h1>Meet the Organizers!</h1>
+		<hr class="line lineAbout">
+		<br>
+		<div class = "orgDiv">
+			<img src = "assets/tuss.png"/>
+			<h1>Tussanee Ashley Limthaveemongkol</h1>
+			<h3>Executive Director, Operations Lead, and Tech Team Member</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/pauline.webp"/>
+			<h1>Pauline Liew</h1>
+			<h3>Outreach Lead</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/patrick.webp"/>
+			<h1>Patrick Liu</h1>
+			<h3>Tech Lead</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/vicky.webp"/>
+			<h1>Vicky Fann</h1>
+			<h3>Sponsorship Co-Lead</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/skye.webp"/>
+			<h1>Skye Chianchitlert</h1>
+			<h3>Sponsorship Co-Lead</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/angela.webp"/>
+			<h1>Angela Dong</h1>
+			<h3>Sponsorship and Operationals Team Member</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/chanida.webp"/>
+			<h1>Chanida Alison Limthaveemongkol</h1>
+			<h3>Outreach Team Member</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/genevieve.webp"/>
+			<h1>Genevieve Chin</h1>
+			<h3>SponsorshipTeam Member</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/kyle.webp"/>
+			<h1>Kyle La</h1>
+			<h3>Sponsorship Team Member</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/matthieu.webp"/>
+			<h1>Matthieu Gol</h1>
+			<h3>Operation and Tech Team Member</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/raven.webp"/>
+			<h1>Raven Ferrer</h1>
+			<h3>Outreach and Operations Team Member</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/william.webp"/>
+			<h1>William Han</h1>
+			<h3>Outreach Team Member</h3>
+			<br><br><br>
+		</div>
+		<div class = "orgDiv">
+			<img src = "assets/zachary.webp"/>
+			<h1>Zachary Norman</h1>
+			<h3>Tech Team Member</h3>
+			<br><br><br>
+		</div>
+		
+	</div>
     <div id="sponsors">
         <div class="container">
 			<div class="text-center p">
